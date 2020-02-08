@@ -1,0 +1,7 @@
+
+fn main =  println sm
+
+fn sm = add ml 100
+
+fn ml = mul 3 4
+

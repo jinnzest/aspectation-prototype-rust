@@ -9,7 +9,7 @@ then
     echo "$file found."
  . $file
 
-LLVM_SYS_80_PREFIX=$llvm_path cargo build --verbose
+LLVM_SYS_80_PREFIX=$llvm_path cargo clippy
 else
     echo "$file not found."
 fi

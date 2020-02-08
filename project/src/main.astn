@@ -1,0 +1,4 @@
+
+fn  main =  println (my2 1 2)
+
+ fn my2 x y = add x ( add (mul getdgt y) 6)

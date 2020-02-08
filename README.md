@@ -3,3 +3,9 @@ It is a research project which is not going to be used in production at all inde
 Aspectation is primarily distributed under the terms of both the MIT license and the Apache License (Version 2.0), with portions covered by various BSD-like licenses.
 
 See LICENSE-APACHE, LICENSE-MIT, and COPYRIGHT for details.
+
+To build run: 
+1. git submodule init && git submodule update
+2. cd libtommath ; make; cd ..
+3. set path to llvm in build.properties
+4. build.sh

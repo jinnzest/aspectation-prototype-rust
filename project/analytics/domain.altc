@@ -1,0 +1,6 @@
+add = always defined
+mul = always defined
+println = always defined
+main = always defined
+my2 = always defined
+div = defined for a2 !=null

@@ -1,0 +1,22 @@
+add = no side effects
+div = no side effects
+fgetc = allowed side effects: console input
+getdgt = allowed side effects: console input
+main = allowed side effects: console output, console input
+malloc = no side effects
+mp_add = no side effects
+mp_clear = no side effects
+mp_div = no side effects
+mp_init = no side effects
+mp_mul = no side effects
+mp_radix_size = no side effects
+mp_read_radix = no side effects
+mp_sub = no side effects
+mp_toradix = no side effects
+mul = no side effects
+my2 = allowed side effects: console input
+printf = allowed side effects: console output
+println = allowed side effects: console output
+sub = no side effects
+
+legenda: 'any' means that any side effect is allowed, 'none' means that no effects are allowed

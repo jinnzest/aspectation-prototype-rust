@@ -1,0 +1,8 @@
+add = a1 is O(n), a2 is O(n)
+div = a1 is O(n), a2 is O(n)
+mul = a1 is O(n), a2 is O(n)
+printf = arg is O(n)
+println = a1 is O(n)
+sub = a1 is O(n), a2 is O(n)
+
+legenda: where c is a constant, n is an integer number
